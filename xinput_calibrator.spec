@@ -1,6 +1,6 @@
 Summary: A generic touchscreen calibration program for X.Org
 Name:    xinput_calibrator
-Version: 0.7.0
+Version: 0.7.5
 Release: %mkrel 1
 Source0: http://github.com/downloads/tias/xinput_calibrator/%{name}-%{version}.tar.gz
 URL: http://www.freedesktop.org/wiki/Software/xinput_calibrator
