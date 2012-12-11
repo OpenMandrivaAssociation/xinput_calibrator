@@ -1,12 +1,13 @@
 Summary: A generic touchscreen calibration program for X.Org
 Name:    xinput_calibrator
 Version: 0.7.5
-Release: %mkrel 1
+Release: 2
 Source0: http://github.com/downloads/tias/xinput_calibrator/%{name}-%{version}.tar.gz
 URL: http://www.freedesktop.org/wiki/Software/xinput_calibrator
+BuildRequires: desktop-file-utils
 License: MIT
 Group:   System/X11
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+
 
 BuildRequires: gtkmm2.4-devel
 
@@ -49,4 +50,13 @@ rm -rf %{buildroot}
 %{_datadir}/pixmaps/%{name}.svg
 %{_datadir}/pixmaps/%{name}.xpm
 %{_mandir}/man1/%{name}.1.*
+
+
+
+%changelog
+* Mon Jun 04 2012 Franck Bui <franck.bui@mandriva.com> 0.7.5-1mdv2012.0
++ Revision: 802296
+- Import 0.7.5
+
+
 
