@@ -4,6 +4,11 @@ Version: 0.7.5
 Release: 4
 Source0: https://github.com/tias/xinput_calibrator/archive/refs/tags/v%{version}.tar.gz
 URL: https://www.freedesktop.org/wiki/Software/xinput_calibrator
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: desktop-file-utils
 License: MIT
 Group:   System/X11
